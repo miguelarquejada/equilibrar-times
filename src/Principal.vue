@@ -144,7 +144,7 @@ const montarTimes = () => {
     <div class="bold texto-roxo mt-20">Jogadores</div>
     <div v-if="jogadores.length == 0" class="texto-cinza-claro mt-10">Ainda nenhum jogador foi selecionado</div>
     <div class="mt-10" v-for="(jogador, index) in jogadores">
-        <div :class="{'bold': index == indexJogadorSendoAtualizado}" @click="selecionarJogador(jogador, index)">{{ obterIconePorNivel(jogador.nivel) }} {{ jogador.nome }}</div>
+        <div style="display: inline-block;" :class="{'bold': index == indexJogadorSendoAtualizado}" @click="selecionarJogador(jogador, index)">{{ obterIconePorNivel(jogador.nivel) }} {{ jogador.nome }}</div>
     </div>
 
     <div style="margin-bottom: 100px;"></div>
