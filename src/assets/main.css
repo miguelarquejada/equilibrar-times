@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-smooth: always;
+  box-sizing: border-box;
+}
+
+.texto-roxo {
+  color: #865df6;
+}
+
+.texto-cinza-claro {
+  color: #dadada;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.botao-secundario {
+  background-color: #e6ddff;
+  color: #865df6;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.botao-primario {
+  background-color: #865df6;
+  color: #e6ddff;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.botao-desativado {
+  background-color: #dadada;
+  color: #b4b4b4;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #dadada;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:    #dadada;
+ opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:    #dadada;
+ opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color:    #dadada;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color:    #dadada;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+ color:    #dadada;
+}
